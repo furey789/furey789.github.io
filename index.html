@@ -1,1 +1,179 @@
-Hello
+
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>MyPage</title>
+    <link rel="stylesheet" type="text/css" href="application.css" media="screen" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  </head>
+
+  <body>
+
+    <div class="parallax-window">
+
+      <div class="bodyText">
+
+        <div class="titleText">
+          <h1><span>Peter R. Furey</h1>
+        </div>
+
+        <p>
+          My purpose is to harness the power of software development to do great things.
+        </p>
+        <p>
+          I have a background originating in science and training in full-stack
+          web application development. I offer a great combination of quantitative know-how,
+          research experience, and technical knowledge.
+        <p>
+
+        <div class="titleText">
+          <h1>Projects</h1>
+        </div>
+
+        <div class="card">
+
+          <h2>Virtual Card</h2>
+          <table>
+            <tr>
+              <td>
+                <img src="images/virtual-card_screen.jpg" alt="vcard" />
+                <ul>
+                  <li><h3><a href="https://github.com/furey789/virtual-card">View on Github</a></h3></li>
+                  <li><h3><a href="https://virtual-card.herokuapp.com/">View Live Site</a></h3></li>
+                </ul>
+              </td>
+              <td class="rightside">
+                <h3>Product Description</h3>
+                This app allows a user to develop a "virtual business card" starting from
+                information provided on their LinkedIn account. The user can then email
+                business colleagues or friends a link to the final product. There's nothing
+                fancy here in terms of UI, but the app is fully functional.
+                <h3>Technical Notes</h3>
+                <div>
+                  Backend - Rails, Ruby, PostgreSQL
+                </div>
+                <div>
+                  Frontend - JavaScript, jQuery, React
+                </div>
+                <div>
+                  APIs - LinkedIn
+                </div>
+              </td>
+            </tr>
+          </table>
+
+        </div>
+
+
+        <div class="card">
+
+          <h2>1D Cellular Automata</h2>
+          <table>
+            <tr>
+              <td>
+                <h3><img src="images/cell_automaton_1D_screen.jpg" alt="cell1D" /></h3>
+                <ul>
+                  <li><h3><a href="https://github.com/furey789/cell_automaton_1D">View on Github</a></h3></li>
+                  <li><h3><a href="https://one-dim-cell-automata.herokuapp.com/">View Live Site</a></h3></li>
+                </ul>
+              </td>
+              <td class="rightside">
+                <h3>Product Description</h3>
+                This app stemmed from efforts to develop a “lightning talk”. It introduces the
+                concept of a 1D Cellular Automaton model and provides a web page in which you
+                can develop and run such a model. There's nothing fancy here in terms of UI,
+                but the app is fun to play with.
+                <h3>Technical Notes</h3>
+                <div>
+                  Backend - Rails, Ruby, PostgreSQL
+                </div>
+                <div>
+                  Frontend - Bootstrap
+                </div>
+              </td>
+            </tr>
+          </table>
+
+        </div>
+
+
+        <div class="card">
+
+          <h2>Water Nexus</h2>
+          <table>
+            <tr>
+              <td>
+                <h3><img src="images/water-nexus_screen_v2.jpg" alt="waternexus" /></h3>
+                <ul>
+                  <li><h3><a href="https://github.com/furey789/water-nexus">View on Github</a></h3></li>
+                  <li><h3><a href="https://mysterious-meadow-6755.herokuapp.com/">View Live Site</a></h3></li>
+                </ul>
+              </td>
+              <td class="rightside">
+                <h3>Product Description</h3>
+                This app originated as an idea to connect water observation with water use and
+                sentiment. The relevance for this idea would be to assess if sentiment (loosely,
+                how people perceive the value of water) falls in line with observation and use.
+                In pursuing this idea as a personal project for a Galvanize course, I wanted to
+                learn more about api implementation, JQuery, and D3. The resulting app here is a
+                small step towards the overall idea. The biggest challenge is obtaining sentiment
+                information, for which Twitter and even Tumbler data seem insufficient.
+                <h3>Technical Notes</h3>
+                <div>
+                  Backend - Rails, Ruby, PostgreSQL
+                </div>
+                <div>
+                  Frontend - JavaScript, jQuery, Bootstrap, D3
+                </div>
+                <div>
+                  APIs - Google Map, Tumbler
+                </div>
+              </td>
+            </tr>
+          </table>
+
+        </div>
+
+
+        <div class="card">
+
+          <h2>GCamp</h2>
+          <table>
+            <tr>
+              <td>
+                <h3><img src="images/gcamp_screen.jpg" alt="gcamp" /></h3>
+                <ul>
+                  <li><h3><a href="https://github.com/furey789/gcamp">View on Github</a></h3></li>
+                  <li><h3><a href="https://fast-island-4948.herokuapp.com/">View Live Site</a></h3></li>
+                </ul>
+              </td>
+              <td class="rightside">
+                <h3>Product Description</h3>
+                This app serves as a project management tool. I completed it at the Galvanize
+                Full-Stack course in 2015. Backend code includes nested
+                resources, permissions, validations and Rspec tests.
+                <h3>Technical Notes</h3>
+                <div>
+                  Backend - Ruby, Rails, PostgreSQL
+                </div>
+                <div>
+                  Frontend - Bootstrap
+                </div>
+              </td>
+            </tr>
+          </table>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <script type="text/javascript" src="jquery-2.1.4.min.js"> </script>
+    <script type="text/javascript" src="parallax.js-1.3.1/parallax.min.js"></script>
+    <script type="text/javascript" src="application.js"> </script>
+
+  </body>
+</html>
