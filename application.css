@@ -4,8 +4,8 @@ body{
   /*background-color: black;*/
   padding: 0px;
   margin: 0px;
-  font-size: 15pt;
-  font-family:"Palatino", serif;
+  font-size: 12pt;
+  font-family:"Arial", serif;
 }
 
 .parallax-window {
@@ -19,9 +19,7 @@ span{
 }
 
 .titleText{
-  border-style: solid;
-  border-width: 0 0 4px 0;
-  border-color: darkgrey;
+  border-bottom: 4px solid darkgray;
   margin-bottom: 60px;
 }
 
@@ -76,4 +74,15 @@ ul {
 
 .card{
   padding-bottom:30px;
+}
+
+.images-contract{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.mobile-device {
+  width: auto;
+  height: 150px;
 }
