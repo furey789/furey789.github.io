@@ -86,3 +86,7 @@ ul {
   width: auto;
   height: 150px;
 }
+
+.text-bold {
+  font-weight: bold;
+}
