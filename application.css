@@ -90,3 +90,8 @@ ul {
 .text-bold {
   font-weight: bold;
 }
+
+.desktop {
+  width: auto;
+  height: 400px;
+}
